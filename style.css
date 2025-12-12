@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+.converter-box {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+#input-value, #conversion-type {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+#convert-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#convert-btn:hover {
+    background-color: #1e7e34;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #eee;
+    margin: 30px 0;
+}
+
+h2 {
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#result-display {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px;
+    background: #f0f8ff;
+    border: 1px solid #b3d9ff;
+    border-radius: 6px;
+    text-align: center;
+    color: #333;
+}

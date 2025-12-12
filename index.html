@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konverter Suhu Canggih</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌡️ Konverter Suhu (C/F)</h1>
+        
+        <div class="converter-box">
+            
+            <label for="input-value">Masukkan Nilai Suhu:</label>
+            <input type="number" id="input-value" placeholder="Contoh: 30" required>
+            
+            <label for="conversion-type">Pilih Konversi:</label>
+            <select id="conversion-type">
+                <option value="CtoF">Celcius (°C) ke Fahrenheit (°F)</option>
+                <option value="FtoC">Fahrenheit (°F) ke Celcius (°C)</option>
+            </select>
+            
+            <button id="convert-btn">Konversi</button>
+            
+            <hr>
+
+            <h2>Hasil:</h2>
+            <div id="result-display">
+                Masukkan nilai dan pilih konversi.
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
